@@ -16,6 +16,8 @@
 
     <link rel="icon" type="image/png" href="assets/img/suitcase.png">
 
+    <button id="goToTopBtn" onclick="goToTop()">Go to Top</button>
+
 
 
     <title>ROHIT CHOUHAN</title>
@@ -620,7 +622,7 @@
         <div class="posts__container grid">
           <div class="post__card">
             <img
-              src="assets/img/docker-blog.webp"
+              src="assets/img/docker-bg.webp"
               alt="docker image"
               class="post__img"
             />
@@ -734,7 +736,7 @@
             <div class="contact__form">
               <p class="contact__form-title">Or just write me a letter here_</p>
 
-              <from action="" id="contact-form">
+              <form action="mailto:rochauhan35@gmail.com" method="post" id="contact-form">
                 <div class="contact__input-div">
                   <input
                     type="text"
@@ -744,7 +746,7 @@
                     id="contact-name"
                   />
                 </div>
-
+              
                 <div class="contact__input-div">
                   <input
                     type="email"
@@ -754,10 +756,10 @@
                     id="contact-email"
                   />
                 </div>
-
+              
                 <div class="contact__input-div">
                   <textarea
-                    name="message";
+                    name="message"
                     placeholder="Type the message here"
                     class="contact__input textarea"
                     id="message"
@@ -765,13 +767,14 @@
                     rows="10"
                   ></textarea>
                 </div>
-
+              
                 <p class="contact__message text-sm" id="contact-message"></p>
-
+              
                 <button type="submit" class="button contact__button">
                   SEND
                 </button>
-              </from>
+              </form>
+              
 
               <p class="footer__copy">
                 &copy; 2023 Rohit Chouhan. All Rights Reserved

@@ -55,3 +55,28 @@ const sendEmail = (e) => {
 };
 
 contactForm.addEventListener('submit', sendEmail);
+
+window.onscroll = function() {
+    scrollFunction();
+  };
+
+  function scrollFunction() {
+    var goToTopBtn = document.getElementById("goToTopBtn");
+    if (
+      document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20
+    ) {
+      goToTopBtn.style.display = "block";
+    } else {
+      goToTopBtn.style.display = "none";
+    }
+  }
+
+  function goToTop() {
+    // Smooth scroll to top
+    document.documentElement.scrollTo({
+      top: 0,
+      behavior: "smooth",
+      duration: 200 // Adjust the duration here (300ms = 0.3s)
+    });
+  }
