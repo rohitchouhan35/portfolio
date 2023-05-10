@@ -653,8 +653,22 @@ input {
   margin-bottom: 0.94em;
 }
 
+.contact__socials {
+    display: flex;
+}
+
 .contact__socials li {
   margin-bottom: 0.75rem;
+  margin-left: 2.25rem;
+}
+
+.icon-large {
+    font-size: 24px; /* Adjust the font size as needed */
+}
+
+.map {
+    height: 50px;
+    width: 150px;
 }
 
 .contact__social-link {
