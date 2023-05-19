@@ -623,7 +623,7 @@ input {
 
 .contact__container {
   grid-template-columns: 4fr 5fr 3fr;
-  column-gap: 5.875rem;
+  column-gap: 8.875rem;
   padding-top: 1.25rem;
 }
 
@@ -756,3 +756,4 @@ input {
 #goToTopBtn:hover::after {
     opacity: 1;
 }
+
